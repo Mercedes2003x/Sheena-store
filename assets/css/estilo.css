@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header-pagina > .titulo-a {
+    font-size: 3rem;
+    font-weight: 600;
+   color: #000
+   font-family Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-pagina > .titulo-b{
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(3, 3, 188);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+
+.titulo-b:hover {
+    transform: scale(1.1);
+}
+
+.header-navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid #000
+}
+
+.header-navegacion > ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   list-style: none;
+   margin: 0% auto;
+}
+
+.header-navegacion > ul > li{
+    margin: 0 15px;
+}
+
+.header-navegacion > ul > li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.5s ease-in;
+}
+
+.eslogan{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #000;
+    margin: 15px;
+}
+
+.informacion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #000
+}
+
+.header-navegacion > ul > li > a:hover{
+color: white;
+background-color:  rgb(3, 3, 188);;
+}
+
+.mejores-precios{
+text-align: center;
+width: auto;
+font-family: Arial, Helvetica, sans-serif;
+margin: 40px;
+}
+
+.foto5{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px;
+}
+.antes5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img5:hover{
+    transform: scale(1.1);
+}
+
+
+.foto6{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes6{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora6{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img6:hover{
+    transform: scale(1.1);
+}
+
+
+.foto7{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes7{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora7{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img7:hover{
+    transform: scale(1.1);
+}
+
+.foto8{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes8{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora8{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img8:hover{
+    transform: scale(1.1);
+}
+
+
+.foto9{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes9{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora9{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img9:hover{
+    transform: scale(1.1);
+}
+
+.foto10{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes10{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora10{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img10:hover{
+    transform: scale(1.1);
+}
+
+
+.foto11{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes11{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora11{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img11:hover{
+    transform: scale(1.1);
+}
+
+
+.foto12{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes12{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora12{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img12:hover{
+    transform: scale(1.1);
+}
+
+
+.foto13{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes13{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora13{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img13:hover{
+    transform: scale(1.1);
+}
+
+
+.foto14{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes14{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora14{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img14:hover{
+    transform: scale(1.1);
+}
+
+
+.foto15{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes15{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora15{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img15:hover{
+    transform: scale(1.1);
+}
+
+
+.foto16{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.antes16{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+}
+.ahora16{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.img16:hover{
+    transform: scale(1.1);
+}
+
+.carousel-inner{
+    height: 300px;
+   position: relative;
+   left:650px;
+}
+    
+.boton{
+    position: relative;
+    left: 950px;
+    margin: 50;
+}
+
+.politicas{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
